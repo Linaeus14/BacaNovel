@@ -50,5 +50,11 @@
                 </script>";
             }
         }
+        else{
+            echo "<script LANGUAGE='JavaScript'>
+                window.alert('Username atau Password Salah!');
+                window.location.href='../index.php';
+            </script>";
+        }
     }
 ?>

@@ -1,4 +1,5 @@
 <?php 
+    require "../php/session.php";
     require "../db/conn.php";
     require "../db/tb_s.php";
     require "../php/header.php";

@@ -41,20 +41,23 @@
                 }
                 else {
                     header("Location: ../index.php", TRUE, 301);
+                    die();
                 }
             }
             else{
                 echo "<script LANGUAGE='JavaScript'>
-                    window.alert('Password salah');
-                    window.location.href='../index.php';
-                </script>";
+                        window.alert('Password salah');
+                        window.location.href='../index.php';
+                    </script>";
+                die();
             }
         }
         else{
             echo "<script LANGUAGE='JavaScript'>
-                window.alert('Username atau Password Salah!');
-                window.location.href='../index.php';
-            </script>";
+                    window.alert('Username atau Password Salah!');
+                    window.location.href='../index.php';
+                </script>";
+            die();
         }
     }
 ?>

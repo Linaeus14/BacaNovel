@@ -1,5 +1,5 @@
 <?php
-    $result = mysqli_query($conn, "SELECT * FROM story");
+    $result = mysqli_query($conn, "SELECT * FROM story LEFT JOIN files ON story.file_id = files.id");
 
     $story = [];
 

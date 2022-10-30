@@ -13,6 +13,7 @@
                     window.alert('Username telah digunakan!');
                     window.location.href='../page/sign_up.php';
                 </script>";
+            die();
         }
         else{
             if($pass === $cpass){
@@ -25,12 +26,14 @@
                             window.alert('Akun Berhasil Ditambah');
                             window.location.href='../index.php';
                         </script>";
+                    die();
                 }
                 else{
                     echo "<script LANGUAGE='JavaScript'>
                             window.alert('Akun Gagal Ditambah');
                             window.location.href='../page/sign_up.php';
                         </script>";  
+                    die();
                 }
             }
             else{
@@ -38,6 +41,7 @@
                         window.alert('Password tidak sama');
                         window.location.href='../page/sign_up.php';
                     </script>";
+                die();
             }
         }
     }

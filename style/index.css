@@ -57,7 +57,20 @@ nav {
     border-top: 2px solid black;
     color: #FBFCFF;
   }
- 
+  #Logout {
+    float: right;
+    margin-top: 4px;
+    color: #d0ccd0;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px; 
+   }
+   #logout:hover {
+    margin-top: 4px;
+    color: #FBFCFF;
+  }
 
 .fnav {
   margin-left: 2%;
@@ -159,6 +172,15 @@ main {
  }
  input[type=text]:focus {
   width: 100%;
+ }
+ textarea {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: vertical;
  }
  input[type=radio] {
   position: relative;

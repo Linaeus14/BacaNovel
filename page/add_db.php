@@ -1,21 +1,21 @@
 <?php 
     require "../db/conn.php";
     require "../db/add.php";
+    require "../php/session.php";
     require "../php/header.php";
 ?>
 <nav>
     <div class="fnav">
-        <a href="../index.php"> Home </a>
+        <a href="../dashboard/admin.php"> Home </a>
     </div>
-    <a href="../nav/db.php" id="Activenav"> Database </a>
-    <a href="../nav/me.php"> About me </a>
     <div class="lnav">
-        <a href="../nav/fiction.php"> Stories </a>
+        <a href="../nav/db.php" id="Activenav"> Database </a>
     </div>
+    <a href="../php/logout.php" id="Logout"> Log Out </a>
 </nav>
 <main>
     <hr>
-    <form id="add" action="" method="post">
+    <form id="submit" action="" method="post" enctype="multipart/form-data">
         <table>
             <h2> Submit Cerita </h2>
             <tr>
@@ -23,24 +23,21 @@
                 <td> <input type="text" name="judul" placeholder="enter the title here" required> </td>
             </tr>
             <tr>
-                <td> Genre </td>
-                <td>
-                    <input type="radio" name="genre" value="sedih" required> Senang </input>
-                    <input type="radio" name="genre" value="senang" required> Sedih </input>
-                    <input type="radio" name="genre" value="netral" required> Netral </input>
-                </td>
+                <td> Penulis </td>
+                <td> <input type="text" name="penulis" placeholder="enter the author here" required> </td>
             </tr>
             <tr>
-                <td> Email </td>
-                <td> <input type="email" name="email" id="email" placeholder="enter your email here" required></td>
+                <td> Sinopsis </td>
+                <td> <textarea name="sinopsis" id="sinopsis" cols="30" rows="5" form="submit" placeholder="enter the synopsis here" required></textarea> </td>
             </tr>
             <tr>
-                <td> Jumlah Paragraf </td>
-                <td> <input type="number" name="paragraf" required> </td>
+                <td> Cerita </td>
+                <td> <textarea name="cerita" id="cerita" cols="30" rows="5" form="submit" placeholder="enter the story here" required></textarea> </td>
             </tr>
         </table>
         <hr>
-        <input type="file" name="fl" accept=".doc, .docx, text/plain, application/pdf" required>
+        <label for="fl"> Cover </label>
+        <input type="file" name="fl" accept="image/png, image/jpeg" required>
         <input type="submit" name="tambah" value="Submit"></input>
     </form>
     <hr>

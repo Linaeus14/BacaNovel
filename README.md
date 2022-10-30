@@ -1,2 +1,3 @@
 ## Note : 
-> CRUD admin belum diubah baru login ama sign up
+> CRUD admin done
+> View User belum

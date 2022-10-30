@@ -10,7 +10,10 @@
     if($now > $_SESSION['expire']) {
         session_unset();
         session_destroy();
-        header("Location: ../index.php", TRUE, 301);
+        echo "<script LANGUAGE='JavaScript'>
+                window.alert('Sesi habis, mohon login ulang!');
+                window.location.href='../index.php';
+            </script>";
         die();
     }
-?>
+?>  

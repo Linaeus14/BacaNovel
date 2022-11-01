@@ -103,7 +103,12 @@ main {
   justify-content: center;
   font-size: 13px;
  }
-
+ .sinmo1 {
+  display: block;
+ }
+ .sinmo2 {
+  display: none;
+ }
  #dataview {
   display: flow-root;
   margin-left: 5%;
@@ -111,16 +116,19 @@ main {
   font-family: sans-serif;
   color: #3a3b3c;
   border-collapse: collapse;
+  border-bottom: #3a3b3c solid 3px;
   overflow: auto;
  }
  #dataview tr th{
   background: #3a3b3c;
   color: #FBFCFF;
   font-weight: normal;
+  padding-bottom: 5px;
  }
  #dataview, #dataview th, #dataview td {
   padding: 8px 20px;
   text-align: center;
+  border-bottom: #d0ccd0 solid 1px;
  }
  #dataview tr:nth-child(even) {
   background-color: #f2f2f2;

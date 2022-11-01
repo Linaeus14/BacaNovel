@@ -19,6 +19,7 @@
     <button type=""> <a href="../page/add_db.php"> Tambah Data </a> </button>
     <button type=""> <a href="../db/del_all.php" onclick = "return confirm('Konfirmasi Hapus Semua?')"> Hapus Semua </a> </button>
     <hr>
+    <button onclick="readmore()"> Baca Selengkapnya </button>
     <table id=dataview>
         <tr>
             <th> No </th>
@@ -34,7 +35,10 @@
                 <td> <?php echo $i ?> </td>
                 <td> <?php echo $s['judul'] ?> </td>
                 <td> <?php echo $s['penulis'] ?> </td>
-                <td> <?php echo $s['sinopsis'] ?> </td>
+                <td> 
+                    <div class="sinmo1"> <?php echo substr_replace($s['sinopsis'], "...", 50) ?> </div>
+                    <div class="sinmo2"> <?php echo $s['sinopsis'] ?> </div>
+                </td>
                 <td> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='100' width='180'>" ?> </td>
                 <td> <?php echo $s['tanggal_up'] ?> </td>
                 <td>

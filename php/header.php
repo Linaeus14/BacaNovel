@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/index.css" />
-    <title> Ungkapan Pikiran </title>
+    <title> Baca Novel </title>
 </head>
 <body>
     <header>
         <hr>
-        <h1> Ungkapan Pikiran </h1>
+        <h1> Baca Novel </h1>
     </header>
     <hr>

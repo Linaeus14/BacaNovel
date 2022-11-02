@@ -24,7 +24,7 @@
         <table id="searchbar">
             <tr> 
                 <?php if(isset($key)){?>
-                    <td> <input type="text" name='key' placeholder="judul/penulis" value=<?php echo $key?> > </td> 
+                    <td> <input type="text" name='key' placeholder="judul/penulis" value="<?php echo $key?>" > </td> 
                 <?php }else{ ?>
                     <td> <input type="text" name='key' placeholder="judul/penulis"> </td>
                 <?php } ?>

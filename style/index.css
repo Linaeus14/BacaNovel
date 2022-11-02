@@ -1,6 +1,7 @@
 /* Mobile */
 body {
   background-image: url("../img/bg2.jpg");
+  background-color: #3a3b3c;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
@@ -102,6 +103,17 @@ main {
   display: flex;
   justify-content: center;
   font-size: 13px;
+ }
+ main a {
+  margin-top: 4px;
+  color: #3a3b3c;
+  text-decoration: none;
+  padding: 10px 20px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px; 
+ }
+ main a:hover {
+  color: #FBFCFF;
  }
  .sinmo1 {
   display: block;
@@ -216,6 +228,11 @@ main {
  }
  input[type=submit]:hover {
   background-color: black;
+ }
+ #searchbar {
+  display: flex;
+  justify-content: left;
+  margin-left: 8%;
  }
  main article{
   text-align: justify;

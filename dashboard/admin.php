@@ -13,6 +13,6 @@
         <h3> Selamat Datang Admin!</h3>
         <hr>
         <img src="../img/Logo1.png" alt="Logo1" height="25%" width="25%">
-        <h3> Tempat dimana, isi pikiran penulis tersampaikan dalam tulisan </h3>
+        <h4> Tempat dimana, isi pikiran penulis tersampaikan dalam tulisan </h4>
     </main>
 <?php require "../php/footer.php"?>

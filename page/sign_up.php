@@ -21,8 +21,7 @@
             <a href="sign_up.php" id="Activenav"> Sign Up </a>
         </div>
     </nav>
-    <main>
-        <div class="box">
+    <box>
         <hr>
         <form id="signup" action="../db/sign_up.php" method="post">
             <table>
@@ -46,8 +45,6 @@
             </table>
             <hr>
             <input type="submit" name = 'signup' value="Sign Up">
-            </div>
         </form>
         <hr>
-    </main>
-<?php require "../php/footer.php"?>
+    </box>

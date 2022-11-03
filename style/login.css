@@ -46,22 +46,29 @@ margin-left: 2%;
     margin-right: 2%;
     
 }
-
 #Activenav {
 margin-top: 0;
 margin-bottom: 1px;
 border-top: 4px solid #d0ccd0;
 color: #FBFCFF;
 }
-
+.box{
+    background-color: #ffff;
+    border: 5% 5% 5% 5%s;
+    min-width: 50%;
+}
 main {
-position: static;
+min-height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 background-color: #d0ccd0;
 padding-left: 1.5%;
 padding-right: 1.5%;
 width: 97%;
 text-align: center;
-font-size: 13px;
+font-size: 60%;
 overflow: auto;
 }
 main table {
@@ -71,12 +78,12 @@ justify-content: center;
 font-size: 13px;
 }
 main input {
-width: 90%;
+min-width: 90%;
 box-sizing: border-box;
 }
 input {
-  padding: 8px 20px;
-  margin: 8px 0;
+  padding: 1.5vh 2.2vw;
+  margin: 1.5vh 0;
   box-sizing: border-box;
  }
  input[type=text] {
@@ -109,10 +116,10 @@ input {
   color: #d0ccd0;
   background-color: #3a3b3c;
   text-align: center;
-  padding: 10px 20px; 
+  padding: 2vh 2vw; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   border: none;
-  font-size: 16px;
+  font-size: 80%;
   text-decoration: none;
  }
  input[type=submit]:hover {
@@ -173,7 +180,7 @@ nav {
 }
 
 main {
-    display: block;
+    display: flex;;
     margin-left: 25%;
     margin-right: 25%;
     width: auto;
@@ -182,6 +189,11 @@ main {
     main table{
     width: auto;
     font-size: 16px;
+}
+
+.box{
+    background-color: #ffff;
+    min-width: 55%;
 }
 
 footer {

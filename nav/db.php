@@ -11,7 +11,9 @@
     <div class="lnav">
         <a href="db.php" id="Activenav"> Database </a>
     </div>
+    <div class="logout">
     <a href="../php/logout.php" id="Logout"> Log Out </a>
+    </div>
 </nav>
 <main>
     <hr>
@@ -51,7 +53,7 @@
                     <div class="sinmo1"> <?php echo substr_replace($s['sinopsis'], "...", 50) ?> </div>
                     <div class="sinmo2"> <?php echo $s['sinopsis'] ?> </div>
                 </td>
-                <td> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='100' width='180'>" ?> </td>
+                <td> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='70vh' width='80vw'>" ?> </td>
                 <td> <?php echo $s['tanggal_up'] ?> </td>
                 <td>
                     <button> <a href="../page/edit_db.php?id=<?php echo $s["id"]; ?>"> Edit </a> </button>

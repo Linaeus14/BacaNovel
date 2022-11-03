@@ -35,7 +35,7 @@
                     <td> <input type="password" name="pass" placeholder="masukan password anda" required> </td>
                 </tr>
                 <tr>
-                    <td> Konfirmasi Password </td>
+                    <td> Konfirmasi Pass </td>
                     <td> <input type="password" name="cpass" placeholder="masukan password anda" required> </td>
                 </tr>
                 <tr>

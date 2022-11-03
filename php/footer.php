@@ -5,12 +5,8 @@
                 <th> Contact </th>
             </tr>
             <tr>
-                <td> Email </td>
-                <td> : titodqrmawan123@gmail.com </td>
-            </tr>
-            <tr>
                 <td> Git Repo </td>
-                <td> <a href="https://github.com/Linaeus14/Pemrograman-web.git" target="_blank"> : https://github.com/Linaeus14/Pemrograman-web.git  </a></td>
+                <td> <a href="https://github.com/Linaeus14/BacaNovel" target="_blank"> : https://github.com/Linaeus14/BacaNovel  </a></td>
             </tr>
         </table>
     </footer>

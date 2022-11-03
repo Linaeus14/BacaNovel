@@ -22,6 +22,7 @@
         </div>
     </nav>
     <main>
+        <div class="box">
         <hr>
         <form id="login" action="./db/login.php" method="post">
             <table>
@@ -36,7 +37,8 @@
                 </tr>
             </table>
             <hr>
-            <input type="submit" name = "Login" value="login">
+            <input type="submit" name = "Login" value="Login">
+        </div>
         </form>
         <hr>
     </main>

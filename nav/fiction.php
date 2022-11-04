@@ -15,6 +15,19 @@
     <a href="../php/logout.php" id="Logout"> Log Out </a>
 </nav>
 <main>
+    <h5></h5>
+    <form id = "search" action = "" method = "get">
+        <table id="searchbar">
+            <tr> 
+                <?php if(isset($key)){?>
+                    <td> <input type="text" name='key' placeholder="judul/penulis" value="<?php echo $key?>" > </td> 
+                <?php }else{ ?>
+                    <td> <input type="text" name='key' placeholder="judul/penulis"> </td>
+                <?php } ?>
+                <td> <button type="submit" name='sdb'> Cari </button> </td>
+            </tr>
+        </table>
+    </form>
     <table id=dataview>
         <?php while ($s = mysqli_fetch_assoc($result)) { ?>
                 <td > <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='120vh' width='130vw'>" ?> </td>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2022 at 11:13 AM
+-- Generation Time: Nov 04, 2022 at 12:15 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -41,7 +41,8 @@ CREATE TABLE `akun` (
 
 INSERT INTO `akun` (`id`, `username`, `pass`, `email`, `sta`) VALUES
 (1, 'admin', '$2y$10$B51KOGL5ZHqDiFTnKDOjMOPNlAF1HeFw3o68aaxAMXct3RAMpsZd.', '-', 'admin'),
-(2, 'user1', '$2y$10$gpKC3QLz/SbM55SCVAzIk.2z0EoqukEaNgyZnhhb9SrQcj1uYYRJ.', 'titoblack098@gmail.com', 'user');
+(2, 'user1', '$2y$10$gpKC3QLz/SbM55SCVAzIk.2z0EoqukEaNgyZnhhb9SrQcj1uYYRJ.', 'titoblack098@gmail.com', 'user'),
+(4, 'ayu', '$2y$10$u5vYB4Q9TuUMqsghuFBYJe2Wb8Tsmm0a2GWFHZuXvo6T5d6UORpru', 'ayukd5@gmail.com', 'user');
 
 -- --------------------------------------------------------
 
@@ -60,11 +61,10 @@ CREATE TABLE `files` (
 --
 
 INSERT INTO `files` (`id`, `filename`, `tanggal_up`) VALUES
-(33, '9S.jpg', '31/10/2022'),
+(33, '9Soo.jpg', '04/11/2022'),
 (35, '9So.jpg', '01/11/2022'),
-(36, 'Osame2.jpg', '02/11/2022'),
-(37, 'shuten1_16_9.jpg', '02/11/2022'),
-(38, 'shuten1.jpg', '02/11/2022'),
+(37, 'kucingkawai.jpg', '03/11/2022'),
+(38, 'harry potteroo.jpg', '03/11/2022'),
 (39, 'mash1.jpg', '02/11/2022'),
 (40, 'Florance1.jpg', '02/11/2022');
 
@@ -88,9 +88,8 @@ CREATE TABLE `story` (
 --
 
 INSERT INTO `story` (`id`, `judul`, `penulis`, `sinopsis`, `cerita`, `file_id`) VALUES
-(45, 'Aku yang sedang menunggu', 'Lnn', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?\r\n\r\nAbc', 33),
+(45, 'Aku yang sedang menunggu', 'Lnn', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku.', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?\r\n\r\nAbc', 33),
 (47, 'Apel', 'me', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?', 35),
-(48, '12312', 'me2', 'aa', 'aa', 36),
 (49, 'dasdadasdsa', 'dasda', 'asbab', 'fasfas', 37),
 (50, 'adasdadw', 'hreht', 'adsad', 'hrtrhr', 38),
 (51, 'dasdsahw', 'asda', 'fdh', 'asdfas', 39),
@@ -127,7 +126,7 @@ ALTER TABLE `story`
 -- AUTO_INCREMENT for table `akun`
 --
 ALTER TABLE `akun`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `files`

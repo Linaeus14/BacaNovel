@@ -19,6 +19,10 @@
         <table>
             <h2> Submit Cerita </h2>
             <tr>
+                <td> Cover </td>
+                <td><input type="file" name="fl" accept="image/png, image/jpeg" required><td>
+             </tr>
+            <tr>
                 <td> Judul </td>
                 <td> <input type="text" name="judul" placeholder="enter the title here" required> </td>
             </tr>
@@ -36,8 +40,6 @@
             </tr>
         </table>
         <hr>
-        <label for="fl"> Cover </label>
-        <input type="file" name="fl" accept="image/png, image/jpeg" required>
         <input type="submit" name="tambah" value="Submit"></input>
     </form>
     <hr>

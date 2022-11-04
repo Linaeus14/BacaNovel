@@ -13,23 +13,20 @@
         <h1> Baca Novel </h1>
     </header>
     <hr>
-    <nav>
-        <div class="fnav">
-            <a href="../index.php"> Login </a>
-        </div>
-        <div class="lnav">
-            <a href="sign_up.php" id="Activenav"> Sign Up </a>
-        </div>
+    <nav class="header">
+    <h2> Sign Up </h2>
     </nav>
     <main>
-        <div class="box">
-        <hr>
+        <div class="input-group">
         <form id="signup" action="../db/sign_up.php" method="post">
             <table>
-                <h2> Sign Up </h2>
                 <tr>
                     <td> Username </td>
                     <td> <input type="text" name="user" placeholder="masukan username anda" required> </td>
+                </tr>
+                <tr>
+                    <td>  Email </td>
+                    <td> <input type="email" name="email" placeholder="masukan email valid" required> </td>
                 </tr>
                 <tr>
                     <td> Password </td>
@@ -39,15 +36,13 @@
                     <td> Konfirmasi Password </td>
                     <td> <input type="password" name="cpass" placeholder="masukan password anda" required> </td>
                 </tr>
-                <tr>
-                    <td>  Email </td>
-                    <td> <input type="email" name="email" placeholder="masukan email valid" required> </td>
-                </tr>
             </table>
-            <hr>
             <input type="submit" name = 'signup' value="Sign Up">
+            <div class="fnav">
+            <p>
+            Already a member?  <a href="../index.php"> Sign in </a>
+            </p>
+            </div>
             </div>
         </form>
-        <hr>
     </main>
-<?php require "../php/footer.php"?>

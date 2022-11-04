@@ -13,20 +13,13 @@
         <h1> Baca Novel </h1>
     </header>
     <hr>
-    <nav>
-        <div class="fnav">
-            <a id="Activenav" href="index.php"> Login </a>
-        </div>
-        <div class="fnav">
-            <a href = "page/sign_up.php"> Sign Up </a>
-        </div>
+    <nav class="header">
+    <h2> Log In </h2>
     </nav>
     <main>
-        <div class="box">
-        <hr>
-        <form id="login" action="./db/login.php" method="post">
+        <div class="input-group">
+        <form id="login" action="./db/login.php" method="post" >
             <table>
-                <h2> Log In </h2>
                 <tr>
                     <td> Username </td>
                     <td> <input type="text" name="username" placeholder="masukan username anda" required> </td>
@@ -36,10 +29,12 @@
                     <td> <input type="password" name="pass" placeholder="masukan passwrod anda" required> </td>
                 </tr>
             </table>
-            <hr>
-            <input type="submit" name = "Login" value="Login">
+            <input type="submit" name = "Login" value="Log In">
+            <div class="fnav">
+            <p>
+            Not yet a member? <a href = "page/sign_up.php"> Sign Up </a>
+            </p>
+        </div>
         </div>
         </form>
-        <hr>
     </main>
-<?php require "php/footer.php"?>

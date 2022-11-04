@@ -48,9 +48,9 @@ header h1 {
 nav {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
 position: sticky;
-width: 100%;
+margin-left: 10%;
+margin-right: 10%;
 background-color: black;
 overflow: hidden;
 }
@@ -79,12 +79,15 @@ margin-bottom: 1px;
 border-top: 4px solid #d0ccd0;
 color: #FBFCFF;
 }
-.box{
-    background-color: #ffff;
-    border: 5% 5% 5% 5%s;
-    min-width: 50%;
+box{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: flex;
 }
 main {
+
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -110,7 +113,7 @@ box-sizing: border-box;
 }
 input {
   padding: 1.5vh 2.2vw;
-  margin: 1.5vh 0;
+  margin: 0.3vh 0;
   box-sizing: border-box;
  }
  input[type=text] {
@@ -198,8 +201,8 @@ header {
 
 nav {
     display: block;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 35%;
+    margin-right: 35%;
     width: auto;
     }
     nav a {
@@ -207,6 +210,7 @@ nav {
 }
 
 main {
+    min-height: 70vh;
     display: flex;;
     margin-left: 30%;
     margin-right: 30%;
@@ -218,9 +222,12 @@ main {
     font-size: 16px;
 }
 
-.box{
-    background-color: #ffff;
-    min-width: 55%;
+box{
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+    display: flex;
 }
 
 footer {

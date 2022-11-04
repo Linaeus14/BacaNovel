@@ -62,7 +62,7 @@
             </tr>
         <?php }?>
     </table>
-    <p><b> Pada Halaman <?php echo $page ?> </b></p>
+    <p><b> Halaman <?php echo $page ?> </b></p>
     <hr>
     <?php
         for ($i=1; $i<=$pages ; $i++){

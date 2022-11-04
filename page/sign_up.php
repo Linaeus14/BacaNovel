@@ -18,6 +18,7 @@
     </nav>
     <main>
         <div class="input-group">
+
         <form id="signup" action="../db/sign_up.php" method="post">
             <table>
                 <tr>
@@ -33,11 +34,12 @@
                     <td> <input type="password" name="pass" placeholder="masukan password anda" required> </td>
                 </tr>
                 <tr>
-                    <td> Konfirmasi Password </td>
+                    <td> Konfirmasi Pass </td>
                     <td> <input type="password" name="cpass" placeholder="masukan password anda" required> </td>
                 </tr>
             </table>
             <input type="submit" name = 'signup' value="Sign Up">
+
             <div class="fnav">
             <p>
             Already a member?  <a href="../index.php"> Sign in </a>

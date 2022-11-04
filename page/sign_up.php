@@ -14,7 +14,7 @@
     </header>
     <hr>
     <nav class="header">
-    <h2> Sign Up </h2>
+    <h3> &nbspSign Up </h3>
     </nav>
     <main>
         <div class="input-group">

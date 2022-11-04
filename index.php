@@ -14,7 +14,7 @@
     </header>
     <hr>
     <nav class="header">
-    <h2> Log In </h2>
+    <h3> &nbspLog In </h3>
     </nav>
     <main>
         <div class="input-group">

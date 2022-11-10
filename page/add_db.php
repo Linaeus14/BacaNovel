@@ -40,7 +40,7 @@
             </tr>
         </table>
         <hr>
-        <input type="submit" name="tambah" value="Submit"></input>
+        <input type="submit" name="tambah" value="Submit" style="align-content: center;"></input>
     </form>
     <hr>
 </main>

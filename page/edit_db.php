@@ -19,6 +19,13 @@
         <table>
             <h2> Ubah Data </h2>
             <tr>
+             <label for="fl"> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='100' width='150'>" ?> </label>
+            </tr>
+            <tr>
+                <td> <label for="fl"> Cover </label></td>
+                <td><input type="file" name="fl" accept="image/png, image/jpeg" required></td>
+            </tr>
+            <tr>
                 <td> Judul </td>
                 <td> <input type="text" name="judul" placeholder="enter the title here" value="<?php echo $s["judul"] ?>" required> </td>
             </tr>
@@ -36,9 +43,6 @@
             </tr>
         </table>
         <hr>
-        <label for="fl"> Cover </label>
-        <label for="fl"> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='100' width='180'>" ?> </label>
-        <input type="file" name="fl" accept="image/png, image/jpeg" required>
         <input type="submit" name="edit" value="Ubah"></input>
     </form>
     <hr>

@@ -43,7 +43,7 @@
   
   <div class="column">
     <div class="card">
-      <img class="zoom" src="../AboutUs/daus.jpeg" alt="Firdaus" style="width:100%">
+      <img class="zoom" src="../AboutUs/daus.jpeg" alt="Firdaus" style="width:75%">
       <div class="container">
         <h2>Muhammad Firdaus</h2>
         <p class="title">Anggota</p>

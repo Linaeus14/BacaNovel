@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2022 at 12:15 PM
+-- Generation Time: Nov 10, 2022 at 03:09 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -71,6 +71,32 @@ INSERT INTO `files` (`id`, `filename`, `tanggal_up`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `rekomendasi`
+--
+
+CREATE TABLE `rekomendasi` (
+  `id` int(4) NOT NULL,
+  `judul` varchar(30) NOT NULL,
+  `penulis` varchar(30) NOT NULL,
+  `sinopsis` text NOT NULL,
+  `cerita` longtext NOT NULL,
+  `file_id` int(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rekomendasi`
+--
+
+INSERT INTO `rekomendasi` (`id`, `judul`, `penulis`, `sinopsis`, `cerita`, `file_id`) VALUES
+(24, 'dasdsahw', 'asda', 'fdh', 'asdfas', 39),
+(25, 'Apel', 'me', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?', 'Saat sendiri, manusia akan mulai berpikir lebih banyak. Cendrung mengabaikan hal disekitar, yang tidak terjangkau oleh tangan. Untuk diriku, melihat ke arah dunia menjadi kebiasaanku. Warna langit, awan yang terus bergerak, cahaya yang masuk ke mata. \"Ahh, indahnya dunia\". Tetapi bagaimana didalamnya? Kebanyakan orang sudah tau dengan phrasa \"Jangan nilai sesuatu dari sampulnya\". Penipuan, konflik, penindasan, tidakkah itu indah? Pengalaman diri terhadap kehidupan, umur, waktu, Kau akan melihat dunia untuk kedua kalinya. Jadi, saat ada yang bertanya \"Bukankah dunia begitu indah?\". Bagaimana kau akan menjawabnya?', 35),
+(26, 'adasdadw', 'hreht', 'adsad', 'hrtrhr', 38),
+(27, 'dasdsahw', 'asda', 'fdh', 'asdfas', 39),
+(28, 'adsa', 'dassdasfasfasf', 'dadsa', 'afasf', 40);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `story`
 --
 
@@ -112,6 +138,12 @@ ALTER TABLE `files`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `rekomendasi`
+--
+ALTER TABLE `rekomendasi`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `story`
 --
 ALTER TABLE `story`
@@ -133,6 +165,12 @@ ALTER TABLE `akun`
 --
 ALTER TABLE `files`
   MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+
+--
+-- AUTO_INCREMENT for table `rekomendasi`
+--
+ALTER TABLE `rekomendasi`
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `story`

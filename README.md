@@ -20,5 +20,5 @@
 >- Menampilkan Novel
 
 ## Note : 
-> CRUD admin done <br>
-> View User belum
+> Menambakan Tabel Baru untuk Tampilan Rekomendasi
+> Mengubah tampilan halaman story

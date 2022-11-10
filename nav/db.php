@@ -9,10 +9,10 @@
         <a href="../dashboard/admin.php"> Home </a>
     </div>
     <div class="lnav">
-        <a href="db.php" id="Activenav"> Database Cerita</a>
+        <a href="db.php" id="Activenav"> Cerita</a>
     </div>
     <div class="fnav">
-        <a href="rekomendasi.php" > Database Rekomendasi </a>
+        <a href="rekomendasi.php" > Rekomendasi </a>
     </div>
     <div class="logout">
     <a href="../php/logout.php" id="Logout"> Log Out </a>
@@ -33,7 +33,7 @@
                 <?php }else{ ?>
                     <td> <input type="text" name='key' placeholder="judul/penulis"> </td>
                 <?php } ?>
-                <td> <button type="submit" name='sdb'> Cari </button> </td>
+                <td> <button type="submit" name='sdb' style="padding: 7%"> Cari </button> </td>
             </tr>
         </table>
     </form>
@@ -59,9 +59,9 @@
                 <td> <?php $path = '../file/'.$s['filename']; echo "<img src=$path alt='cover' height='70vh' width='80vw'>" ?> </td>
                 <td> <?php echo $s['tanggal_up'] ?> </td>
                 <td>
-                    <button> <a href="../page/edit_db.php?id=<?php echo $s["id"]; ?>"> Edit </a> </button>
-                    <button> <a href="../db/del.php?id=<?php echo $s["id"]; ?>" onclick = "return confirm('Konfirmasi Hapus?')"> Hapus </a> </button>
-                    <button> <a href="../db/add_rekomendasi.php?id=<?php echo $s["id"]; ?>"> Rekomendasi </a> </button>
+                    <button style="padding: 7%"> <a href="../page/edit_db.php?id=<?php echo $s["id"]; ?>"> Edit </a> </button>
+                    <button style="padding: 7%"> <a href="../db/del.php?id=<?php echo $s["id"]; ?>" onclick = "return confirm('Konfirmasi Hapus?')"> Hapus </a> </button>
+                    <button style="padding:7%"> <a href="../db/add_rekomendasi.php?id=<?php echo $s["id"]; ?>"> Rekomendasi </a> </button>
                 </td>   
             </tr>
         <?php }?>

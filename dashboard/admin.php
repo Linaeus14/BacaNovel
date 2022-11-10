@@ -5,10 +5,10 @@
             <a href="admin.php" id="Activenav"> Home </a>
         </div>
         <div class="lnav">
-            <a href="../nav/db.php"> Database Cerita</a>
+            <a href="../nav/db.php"> Cerita</a>
         </div>
         <div class="fnav">
-            <a href="../nav/rekomendasi.php" > Database Rekomendasi </a> 
+            <a href="../nav/rekomendasi.php" > Rekomendasi </a> 
         </div>
         <a href="../php/logout.php" id="Logout"> Log Out </a>
     </nav>

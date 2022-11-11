@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    if(isset($_SESSION["sida"]) or isset($_SESSION["sidu"])){}
+    if(isset($_SESSION["sidu"])){}
     else {
         header("Location: ../index.php", TRUE, 301);
         die();

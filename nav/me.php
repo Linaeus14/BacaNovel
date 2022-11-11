@@ -1,5 +1,5 @@
 <?php
-    require "../php/session.php";
+    require "../php/sessionu.php";
     require "../php/header.php";
 ?>  
 <nav>

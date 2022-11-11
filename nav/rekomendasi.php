@@ -1,6 +1,6 @@
 <?php 
     require "../db/conn.php";
-    require "../php/session.php";
+    require "../php/sessiona.php";
     require "../php/header.php";
     $result= mysqli_query($conn, "SELECT * FROM rekomendasi LEFT JOIN files ON rekomendasi.file_id = files.id");
     $no=1;

@@ -1,7 +1,7 @@
 <?php 
     require "../db/conn.php";
     require "../db/tb_s.php";
-    require "../php/session.php";
+    require "../php/sessionu.php";
     require "../php/header.php";
 ?>    
 <nav>

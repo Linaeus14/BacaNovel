@@ -310,7 +310,8 @@ footer {
   width: 50%;
   position: relative;
   display: flex;
-  margin: auto;
+  justify-content: center;
+  margin: auto
 }
 
 .mySlides {
@@ -426,9 +427,6 @@ footer {
 }
 .slideshow-container {
   width: 25%;
-  position: relative;
-  display: flex;
-  margin: auto;
 }
 
 .mySlides {
@@ -475,19 +473,7 @@ footer {
   width: 100%;
   text-align: center;
 }
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-  background-color: #717171;
-}
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -554,14 +540,12 @@ h9{
   background-color: #555555;
 }
 
-
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
 }
-
 
 .zoom:hover {
   -ms-transform: scale(1.5); 

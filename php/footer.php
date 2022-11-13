@@ -11,5 +11,6 @@
         </table>
     </footer>
     <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
 </body>
 </html> 

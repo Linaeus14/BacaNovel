@@ -24,7 +24,7 @@
         <h2>Tito Darmawan</h2>
         <p class="title">Ketua</p>
         <p>2109106042</p>
-        <p>TitoDarmawan@gmail.com</p>
+        <p>titodqrmawan123@gmail.com</p>
       </div>
     </div>
   </div>

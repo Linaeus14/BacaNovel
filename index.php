@@ -1,3 +1,4 @@
+<?php require "php/scheck.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
     </header>
     <hr>
     <nav class="header">
-    <h3> &nbspLog In </h3>
+    <h3> Log In </h3>
     </nav>
     <main>
         <div class="input-group">

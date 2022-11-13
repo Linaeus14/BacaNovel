@@ -7,7 +7,7 @@
     }
     
     $now = time();
-    if($now > $_SESSION['expire']) {
+    if($now > $_SESSION['expirea']) {
         session_unset();
         session_destroy();
         echo "<script LANGUAGE='JavaScript'>

@@ -8,11 +8,9 @@
     <div class="fnav">
         <a href="../dashboard/admin.php"> Home </a>
     </div>
+    <a href="db.php" id="Activenav"> Cerita</a>
     <div class="lnav">
-        <a href="db.php" id="Activenav"> Cerita</a>
-    </div>
-    <div class="fnav">
-        <a href="rekomendasi.php" > Rekomendasi </a>
+        <a href="rekom.php" > Rekomendasi </a>
     </div>
     <div class="logout">
     <a href="../php/logout.php" id="Logout"> Log Out </a>
@@ -61,7 +59,7 @@
                 <td>
                     <button style="padding: 7%"> <a href="../page/edit_db.php?id=<?php echo $s["id"]; ?>"> Edit </a> </button>
                     <button style="padding: 7%"> <a href="../db/del.php?id=<?php echo $s["id"]; ?>" onclick = "return confirm('Konfirmasi Hapus?')"> Hapus </a> </button>
-                    <button style="padding:7%"> <a href="../db/add_rekomendasi.php?id=<?php echo $s["id"]; ?>"> Rekomendasi </a> </button>
+                    <button style="padding:7%"> <a href="../db/add_rekom.php?id=<?php echo $s["id"]; ?>"> Rekomendasi </a> </button>
                 </td>   
             </tr>
         <?php }?>

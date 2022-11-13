@@ -8,8 +8,9 @@
     <div class="fnav">
         <a href="../index.php"> Home </a>
     </div>
+    <a href="../nav/db.php" id="Activenav"> Cerita </a>
     <div class="lnav">
-        <a href="../nav/db.php" id="Activenav"> Database </a>
+        <a href="rekom.php" > Rekomendasi </a>
     </div>
     <a href="../php/logout.php" id="Logout"> Log Out </a>
 </nav>

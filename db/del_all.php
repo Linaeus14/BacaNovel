@@ -1,8 +1,8 @@
 <?php
     require "../db/conn.php";
-
-    $result1 = mysqli_query($conn, "DELETE FROM story");
-    $result2 = mysqli_query($conn, "DELETE FROM files");
+    $result1 = mysqli_query($conn, "DELETE FROM rekom");
+    $result2 = mysqli_query($conn, "DELETE FROM story");
+    $result3 = mysqli_query($conn, "DELETE FROM files");
 
     $folder_path = "../file";
     $files = glob($folder_path.'/*'); 
@@ -13,7 +13,7 @@
         }
     }
 
-    if ( $result1 & $result2 ){
+    if ( $result1 & $result2 & $result3){
         echo"
             <script>
                 window.alert('Data Berhasil Dihapus');

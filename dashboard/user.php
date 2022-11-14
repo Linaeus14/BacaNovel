@@ -16,8 +16,9 @@
     </nav>
     <main>
         <hr>
-        <img src="../img/Logo1.png" alt="Logo1" height="15%" width="15%">
-        <h2> RECOMMENDED NOVEL</h2>
+        <?php $rows = mysqli_num_rows($result); if($rows!=0){ ?>
+            <img src="../img/Logo1.png" alt="Logo1" height="15%" width="15%">
+            <h2> RECOMMENDED NOVEL</h2>
         <?php $rows = mysqli_num_rows($result); if($rows!=1){ ?>
             <div><a class="prev" onclick="plusSlides(-1)">&#10094;</a></div>
         <?php } while ($s = mysqli_fetch_assoc($result)) { ?>
@@ -34,7 +35,11 @@
             </div>
         <?php if($rows!=1){ ?>
             <div><a class="next" onclick="plusSlides(1)">&#10095;</a></div>
-        <?php }}?>
+        <?php }}}else {?>
+            <img src="../img/Logo1.png" alt="Logo1" height="25%" width="25%">
+            <h4> Tempat dimana, isi pikiran penulis tersampaikan dalam tulisan </h4>
+            <hr>
+        <?php } ?>
         <script type="text/javascript" src="../js/slide.js">showSlides(1);</script>
     </main>
 <?php require "../php/footer.php"?>
